@@ -66,3 +66,26 @@ section {
   background-color: black;
   color: white;
 }
+
+.person-container {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 20px;
+}
+
+.person {
+  margin: 10px;
+  border: 2px solid blue;
+  padding: 10px;
+}
+
+.person img {
+  height: 300px;
+}
+
+.person h2 {
+  text-align: center;
+  background-color: blue;
+  color: white;
+  font-size: 20px;
+}
